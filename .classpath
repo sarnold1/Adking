@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="lib" path="D:/Studium/eclipseProjects/Adking/libs/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="D:/Studium/eclipseProjects/Adking/libs/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Studium/eclipseProjects/Adking/libs/fluent-hc-4.5.1.jar"/>
+	<classpathentry kind="lib" path="D:/Studium/eclipseProjects/Adking/libs/httpclient-4.5.1.jar"/>
+	<classpathentry kind="lib" path="D:/Studium/eclipseProjects/Adking/libs/httpclient-cache-4.5.1.jar"/>
+	<classpathentry kind="lib" path="D:/Studium/eclipseProjects/Adking/libs/httpclient-win-4.5.1.jar"/>
+	<classpathentry kind="lib" path="D:/Studium/eclipseProjects/Adking/libs/httpcore-4.4.3.jar"/>
+	<classpathentry kind="lib" path="D:/Studium/eclipseProjects/Adking/libs/httpmime-4.5.1.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

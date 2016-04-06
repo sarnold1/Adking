@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="android.adking.AccountOptions" >
+
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonChangeAccData"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="55dp"
+        android:text="@string/logout" />
+
+    <Button
+        android:id="@+id/buttonChangeAccData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonLogout"
+        android:layout_alignLeft="@+id/buttonAppSettings"
+        android:layout_marginBottom="18dp"
+        android:text="@string/accountdata" />
+
+    <Button
+        android:id="@+id/buttonAppSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonChangeAccData"
+        android:layout_alignLeft="@+id/buttonUploadSpot"
+        android:text="@string/appSettings" />
+
+    <Button
+        android:id="@+id/buttonUploadSpot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonAppSettings"
+        android:layout_alignLeft="@+id/buttonChangeSpot"
+        android:text="@string/uploadSpot" />
+
+    <Button
+        android:id="@+id/buttonChangeSpot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonUploadSpot"
+        android:layout_alignLeft="@+id/buttonCreateSpot"
+        android:text="@string/changeSpot" />
+
+    <Button
+        android:id="@+id/buttonCreateSpot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonChangeSpot"
+        android:layout_centerHorizontal="true"
+        android:text="@string/createSpot" />
+
+    <TextView
+        android:id="@+id/welcomeMessageLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonCreateSpot"
+        android:layout_alignRight="@+id/buttonLogout"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="17dp"
+        android:text="@string/welcomeMessageLogin"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textViewLoggedInUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/welcomeMessageLogin"
+        android:layout_alignRight="@+id/buttonUploadSpot"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

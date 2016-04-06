@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/insertName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewSurname"
+        android:layout_below="@+id/textViewName"
+        android:ems="10"
+        android:enabled="true"
+        android:inputType="text" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/textViewUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/insertSurname"
+        android:layout_below="@+id/insertSurname"
+        android:layout_marginTop="21dp"
+        android:editable="false"
+        android:text="@string/username"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/insertUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewUsername"
+        android:layout_below="@+id/textViewUsername"
+        android:ems="10"
+        android:enabled="true"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/insertName"
+        android:layout_alignParentTop="true"
+        android:text="@string/name"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/insertSurname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewSurname"
+        android:layout_below="@+id/textViewSurname"
+        android:ems="10"
+        android:enabled="true"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/insertPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewPassword"
+        android:layout_below="@+id/textViewPassword"
+        android:ems="10"
+        android:enabled="true"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textViewSurname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/insertName"
+        android:layout_marginLeft="26dp"
+        android:text="@string/surname"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/btnAbortRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnRegister"
+        android:layout_alignBottom="@+id/btnRegister"
+        android:layout_marginLeft="17dp"
+        android:layout_toRightOf="@+id/textViewUsername"
+        android:text="@string/abort" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/insertPassword"
+        android:layout_alignParentBottom="true"
+        android:text="@string/registerSuccess" />
+
+    <EditText
+        android:id="@+id/insertPasswordRepeat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnAbortRegister"
+        android:layout_alignLeft="@+id/btnRegister"
+        android:layout_marginBottom="21dp"
+        android:ems="10"
+        android:enabled="true"
+        android:inputType="textPassword" /> 
+
+    <TextView
+        android:id="@+id/textViewRepeatPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/insertPasswordRepeat"
+        android:layout_alignLeft="@+id/insertPasswordRepeat"
+        android:text="@string/repeatPW"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textViewPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/insertUsername"
+        android:layout_below="@+id/insertUsername"
+        android:layout_marginTop="18dp"
+        android:text="@string/password"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>
